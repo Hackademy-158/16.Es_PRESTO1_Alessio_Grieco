@@ -1,0 +1,27 @@
+/* ROOTS */
+:root {
+/* Root NavBar */
+
+--r-globalnav-color: rgba(0, 0, 0, .8);
+--r-globalnav-color-secondary: #333336;
+--r-globalnav-color-hover: #000000
+
+
+}
+
+
+
+
+
+/* INIT NAVBAR */
+
+/* Stile per i Link */
+.nav-item {
+
+}
+
+
+/* Stile per il btn */
+.btn {}
+
+/* FEIN NAVBAR */

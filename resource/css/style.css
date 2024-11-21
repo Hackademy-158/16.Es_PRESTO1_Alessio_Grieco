@@ -1,0 +1,106 @@
+/* ROOT */
+:root {
+    --blue: rgb(23, 0, 123);
+    --electric-indigo: rgb(106, 0, 244);
+    --violet: rgb(137, 0, 242);
+    --veronica: rgb(161, 0, 242);
+    --veronica-2: rgb(177, 0, 232);
+    --electric-purple: rgb(188, 0, 221);
+    --steel-pink: rgb(209, 0, 209);
+    --steel-pink-2: rgb(219, 0, 182);
+    --hollywood-cerise: rgb(229, 0, 164);
+    --magenta: rgb(242, 0, 137);
+
+    /* General theme colors */
+    --navbar-bg: var(--electric-indigo);
+    --navbar-link: var(--violet);
+    --navbar-link-hover: var(--steel-pink-2);
+    --button-bg: var(--hollywood-cerise);
+    --button-hover-bg: var(--magenta);
+    --text-color: #ffffff;
+}
+
+/* Stile Body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    padding-top: 70px; 
+}
+
+/* Stile sections */
+section {
+    display: block;
+    unicode-bidi: isolate;
+    padding: 0;
+    justify-content: center;
+}
+/* NavBar Container */
+.navbar-wrapper {
+    position: sticky;
+    top: 0;
+    z-index: 1050; 
+    background-color: #fff; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    padding: 20px 20px;
+    border-radius: 60px;
+    transition: transform 0.3s ease; 
+    width: 100%;
+}
+/* Scaling della Navbar */
+.navbar-wrapper:hover {
+    transform: scale(1.02); 
+    transform-origin: center;
+}
+
+/* Navbar */
+.navbar {
+    width: 80%; 
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 10px 0;
+}
+
+/* Navbar Logo */
+.navbar-brand {
+    justify-content: flex-start;
+    margin: 0;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+    color: var(--navbar-link);
+    font-size: 12px;
+    padding: 10px;
+    margin: 8px; 
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Navbar hover effect */
+.navbar-nav .nav-link:hover {
+    color: var(--navbar-link-hover);
+}
+
+/* Navbar Toggler */
+.navbar-toggler {
+    border-color: var(--navbar-link-hover);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23FFFFFF' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    cursor: pointer;
+}
+
+/* Button Styles */
+.btn {
+    background-color: var(--button-bg);
+    color: var(--text-color);
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: var(--button-hover-bg);
+}

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechVault</title>
     <!-- FONT AWESOME CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <!-- BOOTSTRAP CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -17,70 +17,75 @@
 </head>
 
 <body>
-    <!DOCTYPE html>
-    <html lang="en">
+        <!-- Header/Navbar -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-wrapper">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand" href="/view/index.htmlz">TechVault</a>
+            <!-- Toggler for mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Prodotti</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Servizi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Assistenza</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contatti</a>
+                    </li>
+                </ul>
+                <i class="fa-regular fa-user"></i>
+            </div>
+        </div>
+    </nav>
+</header>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>TechVault</title>
-        <!-- FONT AWESOME CSS -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-        <!-- BOOTSTRAP CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <!-- AOS CSS -->
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <!-- CUSTOM CSS -->
-        <link rel="stylesheet" href="../resource/css/style.css">
-    </head>
 
-    <body>
-    <!-- Header/Navbar -->
-    <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <!-- Logo -->
-                <a class="navbar-brand" href="/view/index.htmlz">TechVault</a>
-                <!-- Toggler for mobile -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- Navbar Links -->
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Prodotti</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Servizi</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Assistenza</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contatti</a>
-                        </li>
-                    </ul>
-                    <a href="#" class="btn ms-lg-3">Acquista</a>
+        <!-- Hero Section -->
+        <section class="py-5 text-center container">
+<div>
+    <h1 class="display-4 fw-bold">Innovazione senza limiti</h1>
+    <p class="lead text-secondary">Solo prodotti improntati al futuro.</p>
+    <a href="/view/article.html" class="btn btn-primary btn-lg">Catalogo</a>
+</div>
+        </section>
+
+        <!-- Produts Intro -->
+        <section class="py-5">
+            <div class="container text-center">
+                <h2 class="fw-bold">I nostri prodotti</h2>
+                <p class="text-muted mb-5">Tecnologia avanzata per ogni esigenza.</p>
+                <div class="row justify-content-center"> 
+                    <div class="col-md-6 col-lg-4"> 
+                        <div class="card shadow-sm">
+                            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Prodotto 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Iphone 16 Pro</h5>
+                                <p class="card-text text-secondary">Descrizione breve del prodotto.</p>
+                                <a href="#" class="btn btn-outline-primary">Scopri</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </nav>
-    </header>
+        </section>
+        
 
-    <!-- Hero Section -->
-    <section class="bg-light py-5 text-center">
-        <div class="container">
-            <h1 class="display-4 fw-bold">Innovazione senza limiti</h1>
-            <p class="lead text-secondary">Scopri i nostri prodotti e servizi progettati per il futuro.</p>
-            <a href="#" class="btn btn-primary btn-lg">Scopri di più</a>
-        </div>
-    </section>
-    <!-- Sezione Prodotti -->
+
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________    
     <section class="py-5">
         <div class="container text-center">
             <h2 class="fw-bold">I nostri prodotti</h2>
@@ -119,24 +124,73 @@
             </div>
         </div>
     </section>
-</body>
+    ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________    
 
-</html>
+    <section class="py-5">
+        <div class="container text-center">
+            <h2 class="fw-bold">I nostri prodotti</h2>
+            <p class="text-muted mb-5">Tecnologia avanzata per ogni esigenza.</p>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Prodotto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Prodotto 1</h5>
+                            <p class="card-text text-secondary">Descrizione breve del prodotto.</p>
+                            <a href="#" class="btn btn-outline-primary">Scopri</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Prodotto 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Prodotto 2</h5>
+                            <p class="card-text text-secondary">Descrizione breve del prodotto.</p>
+                            <a href="#" class="btn btn-outline-primary">Scopri</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Prodotto 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Prodotto 3</h5>
+                            <p class="card-text text-secondary">Descrizione breve del prodotto.</p>
+                            <a href="#" class="btn btn-outline-primary">Scopri</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Carosello di 6 Cards -->
 
 
 
 
-<!-- BOOTSTRAP JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    </script>
-<!-- AOS -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-    AOS.init();
-</script>
-<!-- MY JS -->
-<script src="../resource/main.js"></script>
-</body>
 
-</html>
+
+
+
+
+
+
+
+
+
+        <!-- BOOTSTRAP JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+            </script>
+        <!-- AOS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <!-- MY JS -->
+        <script src="../resource/main.js"></script>
+    </body>
+
+    </html>

@@ -15,37 +15,40 @@
     <link rel="stylesheet" href="/resource/css/style.css">
 </head>
 
-<body class="bg-light">
+<body class="bg-white">
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid ">
             <a class="navbar-brand" href="#">
-                <img src="/media/img/svg/logo-text-black.svg" alt="Bootstrap" width="100" height="30">
+                <img src="/media/svg/logo-text-black.svg" alt="Bootstrap" width="100" height="30">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <!-- DropDownMenu  -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <!-- DropDownMenu 1 -->
+                    <!-- Pro-Plan -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Pro plan
                         </a>
+                        <!-- Pro-Plan Menu -->
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">I'm looking to hire</a></li>
                             <li><a class="dropdown-item" href="#">I want offer Pro services</a></li>
                         </ul>
                     </li>
-                    <!-- DropDownMenu 2 -->
+                    <!-- Explore -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Explore
                         </a>
+                        <!-- Explore-List -->
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">
                                     <h6>Answers</h6>
@@ -77,28 +80,38 @@
                                 </a></li>
                         </ul>
                     </li>
-                    <!-- Lingua -->
+                    <!-- English -->
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">English</a>
+                        <a class="nav-link active" aria-current="page" href="#"><span><svg width="18" height="18"
+                                    viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9 1C4.58875 1 1 4.58875 1 9C1 13.4113 4.58875 17 9 17C13.4113 17 17 13.4113 17 9C17 4.58875 13.4113 1 9 1ZM8.53125 4.92676C7.81812 4.89612 7.11218 4.7959 6.43811 4.63293C6.54578 4.37781 6.6626 4.13281 6.78857 3.90063C7.30542 2.94824 7.93994 2.27991 8.53125 2.03784V4.92676ZM8.53125 5.86499V8.53125H5.60339C5.64465 7.4906 5.82202 6.45752 6.11536 5.51782C6.8927 5.71362 7.70874 5.83215 8.53125 5.86499ZM8.53125 9.46875V12.135C7.70874 12.1678 6.8927 12.2864 6.11536 12.4822C5.82202 11.5425 5.64465 10.5094 5.60339 9.46875H8.53125ZM8.53125 13.0732V15.9622C7.93994 15.7201 7.30542 15.0518 6.78857 14.0994C6.6626 13.8672 6.54578 13.6222 6.43811 13.3671C7.11218 13.2041 7.81799 13.1039 8.53125 13.0732ZM9.46875 13.0732C10.1819 13.1039 10.8878 13.2041 11.5619 13.3671C11.4542 13.6222 11.3374 13.8672 11.2114 14.0994C10.6946 15.0518 10.0601 15.7201 9.46875 15.9622V13.0732ZM9.46875 12.135V9.46875H12.3966C12.3553 10.5094 12.178 11.5425 11.8846 12.4822C11.1073 12.2864 10.2913 12.1678 9.46875 12.135ZM9.46875 8.53125V5.86499C10.2913 5.83215 11.1073 5.71362 11.8846 5.51782C12.178 6.45752 12.3553 7.4906 12.3966 8.53125H9.46875ZM9.46875 4.92676V2.03784C10.0601 2.27991 10.6946 2.94824 11.2114 3.90063C11.3374 4.13281 11.4542 4.37781 11.5619 4.63293C10.8878 4.7959 10.1819 4.89612 9.46875 4.92676ZM12.0354 3.45349C11.8007 3.02087 11.5457 2.63953 11.2769 2.31421C12.2141 2.63428 13.0631 3.14636 13.7771 3.8031C13.3699 4.02124 12.931 4.21069 12.4694 4.36902C12.3384 4.0509 12.1936 3.74487 12.0354 3.45349ZM5.9646 3.45349C5.8064 3.74487 5.66162 4.0509 5.53064 4.36902C5.06897 4.21069 4.63013 4.02112 4.2229 3.8031C4.93689 3.14636 5.78589 2.63428 6.72314 2.31421C6.45435 2.63953 6.19946 3.02075 5.9646 3.45349ZM5.2135 5.25012C4.89355 6.27368 4.70544 7.38953 4.66492 8.53125H1.95349C2.05383 7.00769 2.63892 5.61438 3.5564 4.50525C4.06555 4.79724 4.62317 5.047 5.2135 5.25012ZM4.66492 9.46875C4.70544 10.6106 4.89355 11.7263 5.2135 12.7499C4.62317 12.953 4.06555 13.2028 3.5564 13.4948C2.63892 12.3856 2.05383 10.9923 1.95349 9.46875H4.66492ZM5.53064 13.631C5.66162 13.9491 5.8064 14.2551 5.9646 14.5465C6.19946 14.9791 6.45435 15.3605 6.72314 15.6858C5.78589 15.3657 4.93689 14.8536 4.22302 14.1969C4.63 13.9789 5.06897 13.7893 5.53064 13.631ZM12.0354 14.5465C12.1936 14.2551 12.3384 13.9491 12.4694 13.631C12.931 13.7893 13.3699 13.9789 13.7771 14.1969C13.0631 14.8536 12.2141 15.3657 11.2769 15.6858C11.5457 15.3605 11.8005 14.9792 12.0354 14.5465ZM12.7865 12.7499C13.1064 11.7263 13.2946 10.6105 13.3351 9.46875H16.0465C15.9462 10.9923 15.3611 12.3856 14.4436 13.4948C13.9344 13.2028 13.3768 12.953 12.7865 12.7499ZM13.3351 8.53125C13.2946 7.3894 13.1064 6.27368 12.7865 5.25012C13.3768 5.047 13.9344 4.79724 14.4436 4.50525C15.3611 5.61438 15.9462 7.00769 16.0465 8.53125H13.3351Z"
+                                        stroke-width="0.2"></path>
+                                </svg></span>
+                            English</a>
                     </li>
+                    <!-- Links -->
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Become a Seller</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Sign in</a>
                     </li>
-                    <button class="btn btn-outline-success" type="submit">Join</button>
                 </ul>
             </div>
+            <!-- Join -->
+            <ul class="nav-item mb-0 p-2">
+                <button class="btn btn-outline-success m-0 px-3" type="submit">Join</button>
+            </ul>
         </div>
     </nav>
 
     <!-- Header -->
-    <header class="d-flex justify-content-center align-items-center">
+    <header class="d-flex justify-content-center align-items-center container-fluid">
 
 
         <!-- Hero Section -->
-        <div class="card-wrapper pt-4 ps-5" style="width: 1000px; height: 520px;">
+        <div class="card-wrapper pt-4 ps-5 container-fluid" style="width: 2000px; height: 840px;">
             <!-- Bg-Image -->
             <div class="bg-image hover-overlay ripple d-flex position-relative" data-mdb-ripple-color="light"
                 style="width: 100%; height: 100%;">
@@ -108,45 +121,142 @@
                     <div class="mask" style="background-color: rgba(255, 255, 255, 0.3)"></div>
                 </a>
                 <!-- Div-Over-Bg -->
-                <div
-                    class="content position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center p-4">
+                <div class="content position-absolute w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center m-5"
+                    style="padding-top: 100px;">
                     <!-- Titolo -->
-                    <h1 class="text-white mb-3">Scale your Professional Workforce with Freelancers</h1>
+                    <h1 class="text-light w-100 justify-content-center">Scale your Professional <span
+                            style="color: #194051;">Workforce
+                            with Freelancers</span></h1>
                     <!-- SearchBar -->
-                    <form class="d-flex mb-3" role="search" style="max-width: 500px; width: 100%;">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-light" type="submit">Search</button>
+                    <form class="d-flex mt-5 p" role="search" style="max-width: 480px; width: 100%; height: 40px;">
+                        <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+                        <button class="btn btn-outline-light p-1 rounded-circle" type="submit"><i
+                                class="material-icons pt-1" style=" width: 30px; height: 40px;">search</i></button>
                     </form>
                     <!-- Collabo -->
                     <div class="Collabo">
-                        <p class="text-white mt-auto">Powered by:</p>
+                        <p class="text-white mt-5">Powered by:</p>
                         <div class="d-flex justify-content-center align-items-center">
-                            <img src="/media/img/svg/meta-dgray.svg" alt="Meta" class="me-3"
-                                style="width: 50px; height: 50px;">
-                            <img src="/media/img/svg/google-dgray.svg" alt="Google" class="me-3"
-                                style="width: 50px; height: 50px;">
-                            <img src="/media/img/svg/netflix-dgray.svg" alt="Netflix" class="me-3"
-                                style="width: 50px; height: 50px;">
-                            <img src="/media/img/svg/pg-dgray.svg" alt="P&G" class="me-3"
-                                style="width: 50px; height: 50px;">
-                            <img src="/media/img/svg/paypal-dgray.svg" alt="PayPal" class="me-3"
-                                style="width: 50px; height: 50px;">
-                            <img src="/media/img/svg/payoneer-dgray.svg" alt="Payoneer" class="me-3"
-                                style="width: 50px; height: 50px;">
+                            <img src="/media/svg/collabo/meta-dgray.svg" alt="Meta" class="me-3"
+                                style="width: 80px; height: 80px;">
+                            <img src="/media/svg/collabo/google-dgray.svg" alt="Google" class="me-3"
+                                style="width: 80px; height: 80px;">
+                            <img src="/media/svg/collabo/netflix-dgray.svg" alt="Netflix" class="me-3"
+                                style="width: 80px; height: 80px;">
+                            <img src="/media/svg/collabo/pg-dgray.svg" alt="P&G" class="me-3"
+                                style="width: 80px; height: 80px;">
+                            <img src="/media/svg/collabo/paypal-dgray.svg" alt="PayPal" class="me-3"
+                                style="width: 80px; height: 80px;">
+                            <img src="/media/svg/collabo/payoneer-dgray.svg" alt="Payoneer" class="me-3"
+                                style="width: 80px; height: 80px;">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </header>
 
-        
+    <!-- Cards's Row -->
+    <section class="firstsection pt-2 m-4 container-fluid justify-content-center align">
+        <div class="card-container cont d-flex justify-content-center flex-wrap gap-4">
+            <!-- Card 1 -->
+            <div class="card text-center p-5 border-0 shadow" style="width: 220px;">
+                <div class="icon-placeholder mb-3 ps-2" style="font-size: 50px; color: #6c757d;">
+                    <span><img src="/media/svg/cards/card-1.svg" style="width: 60px; height: 60px;"></span>
+                </div>
+                <p class="fw-bold">Consegna Standard</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="card text-center p-5 border-0 shadow" style="width: 220px;">
+                <div class="icon-placeholder mb-3 pe-2" style="font-size: 50px; color: #6c757d;">
+                    <span><img src="/media/svg/cards/card-2.svg" style="width: 60px; height: 60px;"></span>
+                </div>
+                <p class="fw-bold">Consegna Espresso</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="card text-center p-5 border-0 shadow" style="width: 220px;">
+                <div class="icon-placeholder mb-3 ps-2" style="font-size: 50px; color: #6c757d;">
+                    <span><img src="/media/svg/cards/card-3.svg" style="width: 60px; height: 60px;"></span>
+                </div>
+                <p class="fw-bold">Consegna Internazionale</p>
+            </div>
+            <!-- Card 4 -->
+            <div class="card text-center p-5 border-0 shadow" style="width: 220px;">
+                <div class="icon-placeholder mb-3" style="font-size: 50px; color: #6c757d;">
+                    <span><img src="/media/svg/cards/card-4.svg" style="width: 60px; height: 60px;"></span>
+                </div>
+                <p class="fw-bold">Consegne Aziendali</p>
+            </div>
+            <!-- Card 5 -->
+            <div class="card text-center p-5 border-0 shadow" style="width: 220px;">
+                <div class="icon-placeholder mb-3" style="font-size: 50px; color: #6c757d;">
+                    <span><img src="/media/svg/cards/card-5.svg" style="width: 60px; height: 60px;"></span>
+                </div>
+                <p class="fw-bold">Consegna a Domicilio</p>
+            </div>
+            <!-- Card 6 -->
+            <div class="card text-center p-5 border-0 shadow" style="width: 220px;">
+                <div class="icon-placeholder mb-3" style="font-size: 50px; color: #6c757d;">
+                    <span><img src="/media/svg/cards/card-6.svg" style="width: 60px; height: 60px;"></span>
+                </div>
+                <p class="fw-bold">Consegna al Ritiro</p>
+            </div>
+            <!-- Card 7 -->
+            <div class="card text-center p-5 border-0 shadow" style="width: 220px;">
+                <div class="icon-placeholder mb-3" style="font-size: 50px; color: #6c757d;">
+                    <span><img src="/media/svg/cards/card-7.svg" style="width: 60px; height: 60px;"></span>
+                </div>
+                <p class="fw-bold">Consegna Oggetti Fragili</p>
+            </div>
+            <!-- Card 8 -->
+            <div class="card text-center p-5 border-0 shadow" style="width: 220px;">
+                <div class="icon-placeholder mb-3" style="font-size: 50px; color: #6c757d;">
+                    <span><img src="/media/svg/cards/card-8.svg" style="width: 60px; height: 60px;"></span>
+                </div>
+                <p class="fw-bold">Consegna con Firma al Ritiro</p>
+            </div>
+            <!-- Card 9 -->
+            <div class="card text-center p-5 border-0 shadow" style="width: 220px;">
+                <div class="icon-placeholder mb-3" style="font-size: 50px; color: #6c757d;">
+                    <span><img src="/media/svg/cards/card-9.svg" style="width: 60px; height: 60px;"></span>
+                </div>
+                <p class="fw-bold">Consegna Programmata</p>
+            </div>
+        </div>
+    </section>
 
 
-
-        <!-- Bootstrap JS -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- My JS -->
-        <script src="/resource/js/main.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- My JS -->
+    <script src="/resource/js/main.js"></script>
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- //////////////////////////////////////
+    //////  SONO IN PAUSA/////////////////
+   ////////////////////////////////////// -->

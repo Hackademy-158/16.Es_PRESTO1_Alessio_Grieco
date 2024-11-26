@@ -1,5 +1,30 @@
-.mask {
-        background: #111717;
-        background: -webkit-linear-gradient(to right, rgba(17, 23, 23, 0.2), rgba(183, 191, 194, 0.2));
-        background: linear-gradient(to right, rgba(17, 23, 23, 0.2), rgba(183, 191, 194, 0.2))
+    .card-container .card {
+        width: 220px;
+        height: 210px;
     }
+
+    .card-container .icon-placeholder {
+        width: 80px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 50px;
+    }
+
+    .card-container img {
+        width: 60px;
+        height: 60px;
+        object-fit: contain;
+    }
+
+    .card-container p {
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 0;
+        white-space: normal;
+        overflow: visible;
+        text-align: center;
+    }
+    

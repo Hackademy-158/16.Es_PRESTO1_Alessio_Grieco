@@ -4,86 +4,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechVault</title>
-    <!-- FONT AWESOME CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <!-- BOOTSTRAP CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <!-- BOOTSTRAP ICONS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-    <!-- AOS CSS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- MY CSS -->
-    <link rel="stylesheet" href="../resource/css/style.css">
+    <title>PRESTO</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="/resource/css/style.css">
 </head>
 
-<body>
-    <!DOCTYPE html>
-    <html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>PROJECT PRESTO</title>
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-        <!-- Font Awesome -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="style.css">
-    </head>
-
-    <!-- DIV PORTATILE -->
-    <div class="laptop-full d-flex flex-column mt-5 m-auto position-relative">
-        <!-- INIZIO SCREEN LAPTOP -->
-        <div class="laptop-screen m-auto py-1">
-            <!-- Presentazione PRESTO -->
-            <div class="container-fluid d-flex align-items-center pt-2">
-                <div class="row bg-dark m-auto rounded">
-                    <!-- Colonna sinistra -->
-                    <div
-                        class="col-md-6 left-column d-flex flex-column justify-content-center align-items-center text-center text-white">
-                        <img src="/media/img/logo-show.png" alt="Logo Presto" class="mb-4" style="width: 300px;">
-                        <p class="lead">Tecnologia che corre al tuo fianco</p>
-                    </div>
-                    <!-- Colonna destra -->
-                    <div class="col-md-6 right-column d-flex flex-column justify-content-center align-items-start p-4">
-                        <h2 class="fw-bold"><span class="acctext-i">Tardi o...</span><img
-                                src="/media/img/logo-text.png " style="width: 290px;" alt=""><span
-                                class="quest px-3 py-1 mt-1" style="color: var(--acctext)">?</span></h2>
-                        <p class="mb-4">
-                            Da sempre ci distinguiamo per prodotti di <span class="acctext">qualità</span>, servizi
-                            <span class="acctext">eccellenti</span> e un'assistenza clienti
-                            che fidelizza la nostra <span class="acctext">comunità</span>.
-                        </p>
-                        <p src="#">Richiedi un preventivo<br>
-                            <!-- Italy Flag Icon -->
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="32 32">
-                                <path fill="#fff" d="M10 4H22V28H10z"></path>
-                                <path d="M5,4h6V28H5c-2.208,0-4-1.792-4-4V8c0-2.208,1.792-4,4-4Z" fill="#41914d"></path>
-                                <path d="M25,4h6V28h-6c-2.208,0-4-1.792-4-4V8c0-2.208,1.792-4,4-4Z"
-                                    transform="rotate(180 26 16)" fill="#bf393b"></path>
-                                <path
-                                    d="M27,4H5c-2.209,0-4,1.791-4,4V24c0,2.209,1.791,4,4,4H27c2.209,0,4-1.791,4-4V8c0-2.209-1.791-4-4-4Zm3,20c0,1.654-1.346,3-3,3H5c-1.654,0-3-1.346-3-3V8c0-1.654,1.346-3,3-3H27c1.654,0,3-1.346,3,3V24Z"
-                                    opacity=".15"></path>
-                                <path
-                                    d="M27,5H5c-1.657,0-3,1.343-3,3v1c0-1.657,1.343-3,3-3H27c1.657,0,3,1.343,3,3v-1c0-1.657-1.343-3-3-3Z"
-                                    fill="#fff" opacity=".2"></path>
-                            </svg><span class="prephix"> (+39) </span class="phone-number">324-848-2622
-                        </p>
-                        <!-- Socials -->
-                        <div class="mt-2 pt-1">
-                            <a href="#" class="me-3 text-dark"><i class="bi bi-linkedin bg-dark"></i></a>
-                            <a href="#" class="me-3 text-dark"><i class="bi bi-twitter-x bg-dark"></i></a>
-                            <a href="#" class="text-dark"><i class="bi bi-github bg-dark"></i></a>
-                        </div>
-                    </div>
-                </div>
+<body class="bg-light">
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">PRESTO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <!-- DropDownMenu 1 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Pro plan
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">I'm looking to hire</a></li>
+                            <li><a class="dropdown-item" href="#">I want offer Pro services</a></li>
+                        </ul>
+                    </li>
+                    <!-- DropDownMenu 2 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Explore
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"><h6>Answers</h6><p>Powered by AI, answered by Fiverr freelancers</p></a></li>
+                            <li><a class="dropdown-item" href="#"><h6>Community</h6><p>Connect with PRESTO's team and community</p></a></li>
+                            <li><a class="dropdown-item" href="#"><h6>Guides</h6><p>In-depth guides covering business topics/p></a></li>
+                            <li><a class="dropdown-item" href="#"><h6>Podcast</h6><p>Inside tips from top business minds</p></a></li>
+                            <li><a class="dropdown-item" href="#"><h6>Learn</h6><p>Professional online courses, led by experts</p></a></li>
+                            <li><a class="dropdown-item" href="#"><h6>Blog</h6><p>News, infos and community stories</p></a></li>
+                            <li><a class="dropdown-item" href="#"><h6>Logo Maker</h6><p>Create your logo istantly</p></a></li>
+                        </ul>
+                    </li>
+                    <!-- Lingua -->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">English</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Become a Seller</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Sign in</a>
+                    </li>
+                    <button class="btn btn-outline-success" type="submit">Join</button>
+                </ul>
             </div>
-            <!-- FINE SCREEN LAPTOP -->
-    </div>
+        </div>
+    </nav>
 
-<body>
 
-    </html>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- My JS -->
+    <script src="/resource/js/main.js"></script>
+</body>
+
+</html>
